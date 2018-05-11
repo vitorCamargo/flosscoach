@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,200');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:700');
+
+body { background: #f6f6f6; }
+
+.navbar {
+    border-bottom: 1px solid #e3e3e3;
+    background-color: transparent;
+    box-shadow: none !important;
+    position: absolute !important;
+}
+
+.navbar:hover {
+    background-color: white;
+}
+
+.navbar-toggler-bar {
+    background-color: white !important;
+}
+
+.navbar:hover .navbar-toggler-bar { 
+    background: #3949ab !important; 
+}
+
+.navbar:hover .navbar-title {
+    color: #444;
+}
+
+.navbar-title {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-title:hover, .navbar-title:active {
+    color: #3949ab !important;
+}
+
+.fade-mob {
+    display: none;
+}
+
+.form-group {
+    margin-right: 10px;
+}
+
+small {
+    font-size: 11px !important;
+    margin-left: 10px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar:hover small {
+    color: #3949ab;
+}
+
+.input-special::-moz-placeholder {
+    color: #e3e3e3 !important;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.input-special:-moz-placeholder {
+    color: #e3e3e3 !important;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.input-special::-webkit-input-placeholder {
+    color: #e3e3e3 !important;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.input-special:-ms-input-placeholder {
+    color: #e3e3e3 !important;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.input-special:focus {
+    border: 1px solid #3949ab !important;
+    border-right: 0 !important;
+}
+
+.wrapper {
+    background-image: url(https://cdn.kastatic.org/images/homepage/blue-mountains.svg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    display: flex !important;
+    text-align: center !important;
+    height: 60vh !important;
+}
+
+.mini-card p.p-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+}
+
+.mini-card i {
+    font-size: 100px;
+}
+
+.mini-card p.p-body {
+    font-size: 15px;
+}
+
+.title h5 {
+    font-weight: bold;
+    font-size: 29px;
+    color: #3949ab;
+}
+
+.site-footer {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: inset 0 0 44px rgba(0,0,0,0.02);
+}
+
+.site-footer a:hover {
+    text-decoration: none;
+}
+
+.site-footer img {
+    max-height: 20px;
+    margin-left: 5px;
+}
+
+.site-footer-legal {
+    float: left;
+}
+
+.site-footer-right {
+    float: right;
+}
+
+
+
+
+
+
+.navbar-brand { 
+    width: 100%;
+}
+
+.nav-item p, .nav-item i {
+    color: #29385f;
+    font-weight: bold;
+}
+
+#carousel { 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carousel img {
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+.row { margin: 0; }
+
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.titulo-header {
+    text-align: center;
+    color: #3c4a6d;
+    margin-top: 2.3em;
+    font-family: 'Fjalla One' !important;
+    font-size: 60px !important;
+}
+
+.title { 
+    color: #29385f;
+    line-height: 30px;
+}
+
+.title small { color: #2d2d2d; }
+
+.section-nucleo-icons {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.section-tabs {
+    margin-top: 90px;
+    background: linear-gradient(141deg, #29385f 0%, #2a4f7d 50%, #007bff 100%) !important;
+}
+
+.card-icon {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 100px;
+    margin-top: 25px;
+}
+
+.card h5 {
+    color: #2d2d2d !important;
+    padding: 20px 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-button {
+    width:100%;
+    text-align: center;
+}
+
+.card h2 { margin: 20px 20px 0px 20px; }
+
+.social-line {
+    margin-top: -55px;
+    margin-bottom: 10px;
+}
+
+.mapa {
+    width: 100%;
+    height: calc(100% - 24px);
+}
+
+.section-contact {
+    background-attachment: fixed !important;
+    background-image: url("../images/contato.jpg") !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    height: 50vh;
+}
+
+.card-contact { 
+    margin-top: -20vh !important; 
+    z-index: 9;
+}
+
+.section-formContact, .section-map { padding: 0px !important; }
+
+.section-map { margin-top: -20vh !important; }
+
+textarea { border-radius: 20px !important; }
+
+.no-paddingTop {
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.footer button { 
+    border-radius: 2px !important;
+    margin-top: -12px !important;
+}
+
+.section-map {
+    position: relative !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 570px;
+    overflow: hidden;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .fade-mob {
+        display: block;
+        font-size: 17px;
+    }
+
+    .fade-big {
+        display:none !important;
+    }
+
+    .mini-card p.p-title {
+        color: white;
+    }
+
+    .col-xl-2 {
+        margin-bottom: 30px;
+    }
+
+    .site-footer {
+        text-align: center !important;
+    }
+
+    .site-footer-legal {
+        margin-bottom: 5px;
+    }
+
+
+
+
+    .nav-item p, .nav-item i {
+        color: #FFFFFF !important;
+        font-weight: normal;
+    }
+
+    .titulo-header { display: none; }
+
+    #carousel img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
