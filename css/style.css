@@ -142,6 +142,16 @@ small {
     float: right;
 }
 
+.navbar-title img {
+    height: 27px;
+    vertical-align: text-top;
+    filter: brightness(0) invert(1);
+}
+
+.navbar:hover .navbar-title img {
+    filter: none;
+}
+
 
 
 
@@ -299,6 +309,8 @@ textarea { border-radius: 20px !important; }
     .site-footer-legal {
         margin-bottom: 5px;
     }
+
+    
 
 
 

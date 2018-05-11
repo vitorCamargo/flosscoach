@@ -4407,6 +4407,10 @@ Created using IcoMoon - icomoon.io
     animation: nc-icon-spin 2s infinite linear;
 }
 
+.fa.spin {
+    transform: rotate(20deg);
+}
+
 @-webkit-keyframes nc-icon-spin {
     0% {
         -webkit-transform: rotate(0deg);
