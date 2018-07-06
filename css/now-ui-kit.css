@@ -1591,7 +1591,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #3949ab;
+    background-color: #204c7c;
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -1607,7 +1607,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #283593;
+    background-color: #204c7cf0;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -3157,7 +3157,7 @@ a:focus {
 
 h1,
 .h1 {
-    font-size: 3.5em;
+    font-size: 4.7em;
     line-height: 1.15;
     margin-bottom: 30px;
 }
