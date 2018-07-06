@@ -31,12 +31,12 @@
                 <div class = "collapse navbar-collapse justify-content-end" id = "navigation">
                     <ul class = "navbar-nav">
                         <li class = "nav-item" style = "margin-right: 30px">
-                            <a class = "nav-link" href = "">
-                                <p> Login </p>
+                            <a class = "nav-link" data-toggle = "modal" data-target = "#login">
+                                <p> Sign In </p>
                             </a>
                         </li>
                         <li class = "nav-item">
-                            <a class = "nav-link btn btn-primary">
+                            <a class = "nav-link btn btn-primary" data-toggle = "modal" data-target = "#getStarted">
                                 <p style = "color: white"> Get Started </p>
                             </a>
                         </li>
@@ -170,6 +170,31 @@
                     </a>
             </div>
         </footer>
+
+        <div class = "modal fade show" id = "login" tabindex = "-1" role = "dialog" aria-labelledby = "myModalLabel" style = "display: none;">
+            <div class = "modal-dialog">
+                <div class = "modal-content" style = "background-color: #f6f8f9;">
+                    <div class = "modal-header justify-content-center">
+                        <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                            <i class = "now-ui-icons ui-1_simple-remove"></i>
+                        </button>
+                        <h4 class = "title title-up"> Sign In </h4>
+                    </div>
+                    <div class = "modal-body">
+                        <a class = "nav-link btn btn-neutral btn-github">
+                            <img src = "images/github.png" style = "width: 22px;">
+                            <span> Use GitHub Account </span>
+                        </a>
+
+                        <div class = "row justify-content-center text-center" style = "margin-top: 20px; margin-bottom: 20px;">
+                            <div class = "col-md-4"><hr></div>
+                            <div class = "col-md-2"> <p> or </p> </div>
+                            <div class = "col-md-4"><hr></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <!-- SCRIPTS -->
         <script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
