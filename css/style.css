@@ -85,33 +85,6 @@ small.subtitle {
     font-size: 14px;
 }
 
-.site-footer {
-    width: 100%;
-    height: 42px;
-    padding: 10px 30px;
-    padding-top: 12px !important;
-    background-color: #fff;
-    border-top: 1px solid #e0e0e0;
-    box-shadow: inset 0 0 44px rgba(0,0,0,0.02);
-}
-
-.site-footer a:hover {
-    text-decoration: none;
-}
-
-.site-footer img {
-    max-height: 20px;
-    margin-left: 5px;
-}
-
-.site-footer-legal {
-    float: left;
-}
-
-.site-footer-right {
-    float: right;
-}
-
 .navbar-title img {
     height: 40px;
     vertical-align: text-top;
@@ -132,3 +105,66 @@ small.subtitle {
 }
 
 .row { margin: 0; }
+
+.input-box {
+    width: 100%;
+    padding: 5px;
+    padding-left: 15px;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    border: 2px solid #e0e6e8;
+}
+
+.btn-submit {
+    width: 100%;
+    font-size: 17px !important;
+    margin-top: 20px !important;
+    border-radius: 2px;
+}
+
+.input-box:focus {
+    border: 2px solid #204c7c;
+}
+
+.text-form-footer {
+    font-weight: 600;
+    color: #222b37 !important;
+}
+
+a { cursor: pointer !important; }
+
+.text-form-footer:hover { text-decoration: underline !important; }
+
+.color-primary { color: #204c7c !important; }
+
+.footer-collabs {
+    padding: 50px 0px;
+    padding-top: 30px;
+    background-color: #e9ecef;
+}
+
+.collab-title {
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer-collabs img {
+    max-height: 30px;
+    max-width: 100%;
+    filter: grayscale(1);
+}
+
+.footer-collabs img:hover {
+    filter: grayscale(0);
+}
+
+.footer-site {
+    padding: 7px 0px;
+    color: white;
+    font-size: 18px !important;
+    background-color: #204c7c;
+}
