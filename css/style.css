@@ -10,7 +10,7 @@ body { background: #ffffff; }
 }
 
 .navbar-toggler-bar {
-    background-color: white !important;
+    background-color: #204c20 !important;
 }
 
 .navbar-title {
@@ -37,9 +37,14 @@ small.subtitle {
     color: #495057;
 }
 
-.second-promo {
+.second-promo-back {
     background: linear-gradient(25deg,#4580bd,#87a3c3 50%);
+}
+
+.second-promo {
     color: #ffffff;
+    background: url(../images/back.png) no-repeat bottom right;
+    background-size: 100% 70px;
     /* transform: skewY(2deg); */
 }
 
@@ -146,16 +151,59 @@ a { cursor: pointer !important; }
     background-color: #e9ecef;
 }
 
-.collab-title {
-    padding-bottom: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
+footer p {
+    margin-bottom: 7px !important;
+}
+
+.footer-title {
+    font-weight: bold;
 }
 
 .footer-collabs img {
     max-height: 30px;
     max-width: 100%;
     filter: grayscale(1);
+    margin-bottom: 20px;
+}
+
+.footer-creator {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer-creator p {
+    margin: 0 !important;
+}
+
+.footer-creator p:hover .heart {
+    color: #F44336;
+}
+
+.footer-creator p:hover .tag {
+    color: #2196F3;
+}
+
+.footer-creator p:hover .creator {
+    color: #212529;
+}
+
+.creator {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.footer-creator p {
+    font-weight: bold;
+    cursor: default;
+}
+
+.footer-rights {
+    font-size: 15px;
+}
+
+.footer-rights p {
+    margin: 0;
 }
 
 .footer-collabs img:hover {
@@ -167,4 +215,26 @@ a { cursor: pointer !important; }
     color: white;
     font-size: 18px !important;
     background-color: #204c7c;
+}
+
+.ribbon {
+	position: fixed;
+    top: 100px;
+    right: 0;
+	width: 90px;
+	height: 135px;
+	text-indent: -666em;
+	overflow: hidden;
+	z-index: 999;
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+    background-image: url("../images/ribbon.png");
+	background-repeat: no-repeat;
+    background-size: 90px 135px;
+    cursor: pointer;
+}
+
+.ribbon a {
+    width: 90px;
+	height: 135px;
 }

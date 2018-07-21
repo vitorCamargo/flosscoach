@@ -3157,9 +3157,9 @@ a:focus {
 
 h1,
 .h1 {
-    font-size: 4.7em;
+    font-size: 4.2em;
     line-height: 1.15;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 h1 small,
@@ -6091,7 +6091,7 @@ Created using IcoMoon - icomoon.io
         /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(to bottom, #3949ab 0%, #283593 100%);
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to bottom, #3949ab 0%, #283593 100%);
+        background: linear-gradient(to bottom, #204c7c 0%, #204c7c 100%);
         /* Standard syntax (must be last) */
         display: block;
         content: "";
