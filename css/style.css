@@ -1,5 +1,310 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,200');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:700');
+
+.btn,
+.navbar .navbar-nav>a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border: none;
+    border-radius: 0.1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: #888;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #204c7c;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.show>.btn-primary.dropdown-toggle,
+.show>.btn-primary.dropdown-toggle:focus,
+.show>.btn-primary.dropdown-toggle:hover {
+    background-color: #204c7cf0;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17) !important;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+small {
+    font-size: 60%;
+}
+
+a {
+    color: #2a4f7d;
+}
+
+a:hover,
+a:focus {
+    color: #2a4f7d;
+}
+
+h1,
+.h1 {
+    font-size: 4.2em;
+    line-height: 1.15;
+    /* margin-bottom: 30px; */
+}
+
+h1 small,
+.h1 small {
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+h2,
+.h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+h3,
+.h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+}
+
+h4,
+.h4 {
+    font-size: 1.714em;
+    line-height: 1.45em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h4+.category,
+h4.title+.category,
+.h4+.category,
+.h4.title+.category {
+    margin-top: -10px;
+}
+
+h5,
+.h5 {
+    font-size: 1.57em;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+
+h6,
+.h6 {
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.61em;
+}
+
+.text-primary {
+    color: #204c7c !important;
+}
+
+.text-black {
+    color: #2c2c2c;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-white {
+    background-color: #FFFFFFF0 !important;
+}
+
+body {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Animations */
+
+.nav-pills .nav-link,
+.nav-item .nav-link,
+.navbar,
+.nav-tabs .nav-link {
+    -webkit-transition: all 300ms ease 0s;
+    -moz-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    -ms-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+}
+
+.navbar {
+    padding-top: 0.625rem !important;
+    padding-bottom: 0.625rem;
+    min-height: 53px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navbar p {
+    display: inline-block;
+    margin: 0;
+    line-height: 21px;
+}
+
+.navbar .navbar-nav .nav-link.btn {
+    padding: 11px 22px;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+    text-transform: uppercase;
+    font-size: 0.7142em;
+    padding: 0.5rem 0.7rem;
+    line-height: 1.625rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1px;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #FFFFFF;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: #FFFFFF;
+}
+
+.tooltip-inner {
+    padding: 0.5rem 0.7rem;
+    min-width: 130px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: inherit;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+    font-family: 'Nucleo Outline';
+    src: url("../fonts/nucleo-outline.eot");
+    src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.now-ui-icons {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Nucleo Outline';
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.now-ui-icons.ui-1_simple-remove:before {
+    content: "\ea53";
+}
+
+.modal-content {
+    border-radius: 0.1875rem;
+    border: none;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content .modal-header {
+    border-bottom: none;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 0;
+    padding-left: 24px;
+}
+
+.modal-content .modal-header button {
+    position: absolute;
+    right: 27px;
+    top: 30px;
+    outline: 0;
+}
+
+.modal-content .modal-header .title {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.modal-content .modal-body {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    line-height: 1.9;
+}
+
+.modal-content .modal-footer button {
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+}
+
+.modal-content .modal-footer button.pull-left {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    left: -5px;
+}
+
+.modal-content .modal-body+.modal-footer {
+    padding-top: 0;
+}
+
+.modal-backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal .modal-header .close {
+    color: #FF3636;
+    text-shadow: none;
+}
+
+.modal .modal-header .close:hover,
+.modal .modal-header .close:focus {
+    opacity: 1;
+}
+
+/* Alterações */
 
 body { background: #ffffff; }
 
@@ -80,6 +385,7 @@ small.subtitle {
 
 .btn-github {
     box-shadow: 0 3px 5px 0 rgba(36,50,66,.2);
+    background: white !important;
 }
 
 .btn-github span {
@@ -102,7 +408,6 @@ small.subtitle {
 .nav-item p {
     color: #646f79;
     font-weight: bold;
-    margin-right: 20px;
 }
 
 .nav-item p:hover {
